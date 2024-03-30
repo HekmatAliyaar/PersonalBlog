@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="I am UI/UX designer" />
+    <title>Personal Blog &mdash; Expert developer</title>
+    <link rel="icon" href="./img/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./queries.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="./img/logo.png"
+          class="nav__logo"
+          id="logo"
+          designer="hikmat"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">About me</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#footer--contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-moblie-nav">
+        <span class="icon-mobile-nav menu" name="menu-outline"
+          ><img src="./img/menu_24px.png" alt=""
+        /></span>
+
+        <!-- <ion-icon class="icon-mobile-nav" name="menu"></ion-icon> -->
+        <span class="icon-mobile-nav close" name="close-outline"
+          ><img src="./img/delete_24px.png" alt=""
+        /></span>
+      </button>
+
+      <div class="header__title">
+        <h1>
+          Hello!<br />
+          I'm
+
+          <span class="highlight"><em>Front End</em></span>
+          developer<br />
+          <span class="highlight"><em> UI&Backslash;UX </em> </span> designer
+        </h1>
+        <h4>A talented and passionate developer is in here 🚀.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="./img/HikmatAliyar.jpg"
+          class="header__img"
+          alt="image profile"
+        />
+      </div>
+    </header>
+
+    <!-- About me -->
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">About Us</h2>
+        <h3 class="section__header">
+          Everything you need in a modern Web develoment, design and more.
+        </h3>
+      </div>
+
+      <div class="features">
+        <div>
+          <div class="sub-features">
+            <img
+              src="img/HikmatAliyar.jpg"
+              data-src="img/digital.jpg"
+              alt="Computer"
+              class="features__img lazy-img"
+            />
+            <div class="name-features">
+              <p><strong>Name:</strong> Hikmatullah Ali Yar</p>
+              <p><strong>Profile:</strong> Web developer</p>
+              <p><strong>Email:</strong> hikmat1397@gmail.com</p>
+              <p><strong>Phone:</strong> 0775586797</p>
+            </div>
+          </div>
+          <div class="skill-features">
+            <h2>Skills:</h2>
+
+            <div class="container">
+              <h5>HTML 80%</h5>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-success"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 80%"
+                >
+                  <!-- 80% Complete (success) -->
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <h5>CSS 70%</h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 70%"
+                >
+                  <!-- 70% Complete (success) -->
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <h5>JavaScript 40%</h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="40"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 40%"
+                >
+                  <!-- 40% Complete (success) -->
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <h5>Node JS 50%</h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 50%"
+                >
+                  <!-- 50% Complete (success) -->
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <h5>MySQL 80%</h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 80%"
+                >
+                  <!-- 80% Complete (success) -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="features__feature">
+          <!-- <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div> -->
+          <h3 class="features__header"><strong>Personal Info</strong></h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+            debitis ducimus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+            debitis ducimus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+            debitis ducimus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+            debitis ducimus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+            sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+            debitis ducimus.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 2 projects -->
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Projects</h2>
+        <h3 class="section__header">
+          Everything as simple as possible, but no simpler.
+        </h3>
+      </div>
+
+      <div class="card-container">
+        <!-- #1 -->
+        <div class="card-frame">
+          <img
+            src="./img/work-1.jpg"
+            alt="card image"
+            class="project-profile"
+            width="100%"
+          />
+          <div class="card-details">
+            <div>
+              <h2>Lorem Ipsume learning</h2>
+              <p>Web design/ 18 Sep 2022</p>
+            </div>
+            <div class="plus-detail">
+              <a href="" class="plus-sign"
+                ><img src="./img/plus_32px.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- #2 -->
+
+        <div class="card-frame">
+          <img
+            src="./img/work-2.jpg"
+            alt="card image"
+            class="project-profile"
+            width="100%"
+          />
+          <div class="card-details">
+            <div>
+              <h2>Lorem Ipsume learning</h2>
+              <p>Web design/ 18 Sep 2022</p>
+            </div>
+            <div class="plus-detail">
+              <a href="" class="plus-sign"
+                ><img src="./img/plus_32px.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- #3 -->
+        <div class="card-frame">
+          <img
+            src="./img/work-3.jpg"
+            alt="card image"
+            class="project-profile"
+            width="100%"
+          />
+          <div class="card-details">
+            <div>
+              <h2>Lorem Ipsume learning</h2>
+              <p>Web design/ 18 Sep 2022</p>
+            </div>
+            <div class="plus-detail">
+              <a href="" class="plus-sign"
+                ><img src="./img/plus_32px.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- #4 -->
+        <div class="card-frame">
+          <img
+            src="./img/work-4.jpg"
+            alt="card image"
+            class="project-profile"
+            width="100%"
+          />
+          <div class="card-details">
+            <div>
+              <h2>Lorem Ipsume learning</h2>
+              <p>Web design/ 18 Sep 2022</p>
+            </div>
+            <div class="plus-detail">
+              <a href="" class="plus-sign"
+                ><img src="./img/plus_32px.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- #5 -->
+        <div class="card-frame">
+          <img
+            src="./img/work-5.jpg"
+            alt="card image"
+            class="project-profile"
+          />
+          <div class="card-details">
+            <div>
+              <h2>Lorem Ipsume learning</h2>
+              <p>Web design/ 18 Sep 2022</p>
+            </div>
+            <div class="plus-detail">
+              <a href="" class="plus-sign"
+                ><img src="./img/plus_32px.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- #6 -->
+        <div class="card-frame">
+          <img
+            src="./img/work-6.jpg"
+            alt="card image"
+            class="project-profile"
+            width="100%"
+          />
+          <div class="card-details">
+            <div>
+              <h2>Lorem Ipsume learning</h2>
+              <p>Web design/ 18 Sep 2022</p>
+            </div>
+            <div class="plus-detail">
+              <a href="" class="plus-sign"
+                ><img src="./img/plus_32px.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- #******* -->
+      </div>
+
+      <!-- <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant Transfers
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Instant Loans
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Instant Closing
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Tranfser money to anyone, instantly! No fees, no BS.
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Buy a home or make your dreams come true, with instant loans.
+          </h5>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            No longer need your account? No problem! Close it instantly.
+          </h5>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+        </div> -->
+    </section>
+    <!-- &&********** services***************** -->
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Our Services</h2>
+        <h3 class="section__header">
+          We already delivered services for Millions of people internationlly.
+        </h3>
+      </div>
+
+      <div class="service-card">
+        <div class="cardS">
+          <div class="service-details">
+            <div class="card-img-div">
+              <img src="./img/suitcase_64px.png" class="service-img" />
+            </div>
+
+            <div class="service-info">
+              <h2><strong>WEB DESIGN</strong></h2>
+              <p>
+                <strong
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                  Magni tempora perferendis eum non provident
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- &&&&&& -->
+        <div class="cardS">
+          <div class="service-details">
+            <div class="card-img-div">
+              <img src="./img/suitcase_64px.png" class="service-img" />
+            </div>
+
+            <div class="service-info">
+              <h2><strong>WEB DEVELOPMENT</strong></h2>
+              <p>
+                <strong
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                  Magni tempora perferendis eum non provident
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ************ -->
+
+        <div class="cardS">
+          <div class="service-details">
+            <div class="card-img-div">
+              <img src="./img/suitcase_64px.png" class="service-img" />
+            </div>
+
+            <div class="service-info">
+              <h2><strong>PHOTOGRAPHY</strong></h2>
+              <p>
+                <strong
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                  Magni tempora perferendis eum non provident
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ************ -->
+
+        <div class="cardS">
+          <div class="service-details">
+            <div class="card-img-div">
+              <img src="./img/suitcase_64px.png" class="service-img" />
+            </div>
+
+            <div class="service-info">
+              <h2><strong>RESPONSIVE DESIGN</strong></h2>
+              <p>
+                <strong
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                  Magni tempora perferendis eum non provident
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ************ -->
+
+        <div class="cardS">
+          <div class="service-details">
+            <div class="card-img-div">
+              <img src="./img/suitcase_64px.png" class="service-img" />
+            </div>
+
+            <div class="service-info">
+              <h2><strong>GRAPHIC DESIGN</strong></h2>
+              <p>
+                <strong
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                  Magni tempora perferendis eum non provident
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ************ -->
+
+        <div class="cardS">
+          <div class="service-details">
+            <div class="card-img-div">
+              <img src="./img/suitcase_64px.png" class="service-img" />
+            </div>
+
+            <div class="service-info">
+              <h2><strong>MARKETING SERVICES</strong></h2>
+              <p>
+                <strong
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magni adipisci eaque autem fugiat! Quia, provident vitae!
+                  Magni tempora perferendis eum non provident
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact and footer -->
+    <footer class="footer" id="footer--contact">
+      <div class="footer-container">
+        <div class="input-part">
+          <h2 id="message-me"><strong>Message Me</strong></h2>
+          <input
+            class="contact-input"
+            type="text"
+            placeholder="   Your Name"
+          /><br />
+          <input
+            class="contact-input"
+            type="text"
+            placeholder="   Your Email"
+          /><br />
+          <input
+            class="contact-input"
+            type="text"
+            placeholder="   Subject"
+          /><br />
+          <textarea
+            class="contact-input"
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            placeholder="   Message"
+          ></textarea>
+
+          <button class="send-button">Send Massage</button>
+        </div>
+
+        <div class="in-touch">
+          <h2><strong>Get In Touch</strong></h2>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam
+            magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
+            mollitia inventore
+          </p>
+          <br />
+          <p>
+            <img class="image-link" src="./img/location_50px.png" alt="" />
+            Kabul, Afghanistan
+          </p>
+          <p>
+            <img
+              class="image-link"
+              src="./img/phonelink_ring_50px.png"
+              alt=""
+            />
+            +93 (0) 77558677
+          </p>
+          <p>
+            <img class="image-link" src="./img/send_email_50px.png" alt="" />
+            example@gmail.com
+          </p>
+
+          <div class="media-icons">
+            <div class="media-links">
+              <img src="./img/facebook_24px.png" alt="" />
+            </div>
+            <div class="media-links">
+              <img src="./img/instagram_24px.png" alt="" />
+            </div>
+            <div class="media-links">
+              <img src="./img/twitter_24px.png" alt="" />
+            </div>
+            <div class="media-links">
+              <img src="./img/git_24px.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a>Hikmat</a> Don't claim as your own product😘.
+      </p>
+    </footer>
+
+    <a class="like-btn" href="#"><img src="./img/up_26px.png" alt="" /></a>
+
+    <script src="./Script.js"></script>
+  </body>
+</html>
